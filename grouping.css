@@ -1,0 +1,111 @@
+/* Element Grouping */
+
+.nm {
+    background-color: #02B064;
+    color: white;
+}
+.nm:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #02B064;
+}
+
+.am {
+    background-color: #05B2A5;
+    color: white;
+}
+.am:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #05B2A5;
+}
+
+.aem {
+    background-color: #ADADAD;
+    color: white;
+}
+.aem:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #ADADAD;
+}
+
+.etm {
+    background-color: #AF01AD;
+    color: white;
+}
+.etm:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #AF01AD;
+}
+
+.ltm {
+    background-color: #dfc100;
+    color: white;
+}
+.ltm:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #dfc100;
+}
+
+.bm {
+    background-color: #4E00B2;
+    color: white;
+}
+.bm:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #4E00B2;
+}
+
+.m {
+    background-color: #D07C05;
+    color: white;
+}
+.m:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #D07C05;
+}
+
+.h {
+    background-color: #0091CE;
+    color: white;
+}
+.h:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #0091CE;
+}
+
+.ng {
+    background-color: #CE4700;
+    color: white;
+}
+.ng:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #CE4700;
+}
+
+.la {
+    background-color: #00C637;
+    color: white;
+}
+.la:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #00C637;
+}
+
+.ac {
+    background-color: #005BD8;
+    color: white;
+}
+.ac:hover {
+    cursor: pointer;
+    transform: scale(1.8);
+    box-shadow: 1px 1px 20px #005BD8;
+}

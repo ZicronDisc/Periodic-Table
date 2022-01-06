@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+
+<head><title>Modern Periodic Table</title></head>
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!--File Linking-->
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="selectors.css">
+<link rel="stylesheet" href="grouping.css">
+<link rel="stylesheet" href="big.css">
+
+<script src="grouping.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<body>
+    <header>
+        Modern Periodic Table of Elements
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-1">
+                
+            </div>
+            <div class="col-sm-7" style="margin-top: 50px; margin-bottom: 10px;">
+                <center><b>Group of Elements</b></center>
+            </div>
+            <div class="col-sm-4" style="margin-top: 50px; margin-bottom: 10px;">
+                <center><b>Phases</b></center>
+            </div>
+        </div>
+    </div>
+
+    <div class="container select">
+        <div class="row">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-sm-2">
+                <table>
+                    <tr><td class="n2 NM group">Non Metals</td></tr>
+                    <tr></tr><td class="n2 AM group">Alkalai Metals</td></tr>
+                    <tr><td class="n2 AEM group">Alkaline Metals</td></tr>
+                </table>
+            </div>
+            <div class="col-sm-2">
+                <table>
+                    <tr><td class="n2 ETM group">Early Transition Metals</td></tr>
+                    <tr><td class="n2 LTM group">Late Transition <br>Metals</td></tr>
+                </table>
+            </div>
+            <div class="col-sm-2">
+                <table>
+                    <tr><td class="n2 BM group">Basic Metals</td></tr>
+                    <tr><td class="n2 M group">Metalloids</td></tr>
+                    <tr><td class="n2 H group">Halogens</td></tr>
+                </table>
+            </div>
+            <div class="col-sm-2">
+                <table>
+                    <tr><td class="n2 NG group">Noble Gas</td></tr>
+                    <tr><td class="n2 LA group">Lathanides</td></tr>
+                    <tr><td class="n2 AC group">Actinides</td></tr>
+                </table>
+            </div>
+            <div class="col-sm-2"  id="properties">
+                <div class="solid">Solid</div>
+                <div class="liquid">Liquid</div>
+                <div class="gas">Gas</div>
+                <div class="unknown">Unknown</div>
+            </div>
+            <div class="col-sm-1">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <!--Periodic Table-->
+            <div class="col-sm-12">
+                <table class="element">
+                    <tr>
+                        <td></td>
+                        <td><center>1</center></td>
+                            <td colspan="16"></td>
+                        <td><center>18</center></td>
+                    </tr>
+            
+                    <!--Row 1-->
+                    <tr>
+                        <td><center>1</center></td>
+                        <td class="nm 1">
+                            <div class="n">1</div><div class="sym">H</div>
+                            <div class="n">HYDROGEN</div><div class="n">1.007</div>
+                        </td>
+                        <td><center>2</center></td>
+                        <td></td>
+                        <!---->
+            
+                        <td colspan="9"></td>
+                        <td><center>13</center><div class="n"><center>Boron Group</center></div></td>
+                        <td><center>14</center><div class="n"><center>Carbon Group</div></td>
+                        <td><center>15</center><div class="n"><center>Nitrogen Group</center></div></td>
+                        <td><center>16</center><div class="n"><center>Chalogens</center></div></td>
+                        <td><center>17</center><div class="n"><center>Halogens</center></div></td>
+                        <td class="ng">
+                            <div class="n">2</div><div class="sym">He</div>
+                            <div class="n">HELIUM</div><div class="n">4.003</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 2-->
+                    <tr>
+                        <td><center>2</center></td>
+                        <td class="am">
+                            <div class="n">3</div><div class="sym">Li</div>
+                            <div class="n">LITHIUM</div><div class="n">6.938</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">4</div><div class="sym">Be</div>
+                            <div class="n">BERYLLIUM</div><div class="n">9.012</div>
+                        </td>
+                        <td colspan="10"></td>
+                        <td class="m">
+                            <div class="n">5</div><div class="sym">Br</div>
+                            <div class="n">BORON</div><div class="n">10.80</div>
+                        </td>
+                        <td class="nm">
+                            <div class="n">6</div><div class="sym">C</div>
+                            <div class="n">CARBON</div><div class="n">12.00</div>
+                        </td>
+                        <td class="nm 7">
+                            <div class="n">7</div><div class="sym">N</div>
+                            <div class="n">NITROGEN</div><div class="n">14.00</div>
+                        </td>
+                        <td class="nm 8">
+                            <div class="n">8</div><div class="sym">O</div>
+                            <div class="n">OXYGEN</div><div class="n">15.99</div>
+                        </td>
+                        <td class="h 9">
+                            <div class="n">9</div><div class="sym">F</div>
+                            <div class="n">FLOURINE</div><div class="n">19.00</div>
+                        </td>
+                        <td class="ng">
+                            <div class="n">10</div><div class="sym">Ne</div>
+                            <div class="n">NEON</div><div class="n">20.18</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 3-->
+                    <tr>
+                        <td><center>3</center></td>
+                        <td class="am">
+                            <div class="n">11</div><div class="sym">Na</div>
+                            <div class="n">SODIUM</div><div class="n">22.99</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">12</div><div class="sym">Mg</div>
+                            <div class="n">MAGNESIUM</div><div class="n">24.30</div>
+                        </td>
+                        <td><center>3</center></td>
+                        <td><center>4</center></td>
+                        <td><center>5</center></td>
+                        <td><center>6</center></td>
+                        <td><center>7</center></td>
+                        <td><center>8</center></td>
+                        <td><center>9</center></td>
+                        <td><center>10</center></td>
+                        <td><center>11</center></td>
+                        <td><center>12</center></td>
+                        <td class="bm">
+                            <div class="n">13</div><div class="sym">Al</div>
+                            <div class="n">ALUMINUM</div><div class="n">26.98</div>
+                        </td>
+                        <td class="m">
+                            <div class="n">14</div><div class="sym">Si</div>
+                            <div class="n">SILICON</div><div class="n">28.08</div>
+                        </td>
+                        <td class="nm">
+                            <div class="n">15</div><div class="sym">P</div>
+                            <div class="n">PHOSPHORUS</div><div class="n">30.97</div>
+                        </td>
+                        <td class="nm">
+                            <div class="n">16</div><div class="sym">S</div>
+                            <div class="n">SULFUR</div><div class="n">32.05</div>
+                        </td>
+                        <td class="h 17">
+                            <div class="n">17</div><div class="sym">Cl</div>
+                            <div class="n">CHLORINE</div><div class="n">35.44</div>
+                        </td>
+                        <td class="ng">
+                            <div class="n">18</div><div class="sym">Ar</div>
+                            <div class="n">ARGON</div><div class="n">39.95</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 4-->
+                    <tr>
+                        <td><center>4</center></td>
+                        <td class="am">
+                            <div class="n">19</div><div class="sym">K</div>
+                            <div class="n">POTASSIUM</div><div class="n">39.10</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">20</div><div class="sym">Ca</div>
+                            <div class="n">CALCIUM</div><div class="n">40.08</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">21</div><div class="sym">Sc</div>
+                            <div class="n">SCANDIUM</div><div class="n">44.96</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">22</div><div class="sym">Ti</div>
+                            <div class="n">TITANIUM</div><div class="n">47.87</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">23</div><div class="sym">V</div>
+                            <div class="n">VANADIUM</div><div class="n">50.94</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">24</div><div class="sym">Cr</div>
+                            <div class="n">CHROMIUM</div><div class="n">52.00</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">25</div><div class="sym">Mn</div>
+                            <div class="n">MANGANESE</div><div class="n">54.94</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">26</div><div class="sym">Fe</div>
+                            <div class="n">IRON</div><div class="n">55.85</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">27</div><div class="sym">Co</div>
+                            <div class="n">COBALT</div><div class="n">58.93</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">28</div><div class="sym">Ni</div>
+                            <div class="n">NICKEL</div><div class="n">58.69</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">29</div><div class="sym">Cu</div>
+                            <div class="n">COPPER</div><div class="n">63.55</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">30</div><div class="sym">Zn</div>
+                            <div class="n">ZINC</div><div class="n">65.38</div>
+                        </td>
+                        <td class="bm">
+                            <div class="n">31</div><div class="sym">Ga</div>
+                            <div class="n">GALLIUM</div><div class="n">69.72</div>
+                        </td>
+                        <td class="m">
+                            <div class="n">32</div><div class="sym">Ge</div>
+                            <div class="n">GERMANIUM</div><div class="n">72.63</div>
+                        </td>
+                        <td class="m">
+                            <div class="n">33</div><div class="sym">As</div>
+                            <div class="n">ARSENIC</div><div class="n">74.92</div>
+                        </td>
+                        <td class="nm">
+                            <div class="n">34</div><div class="sym">Se</div>
+                            <div class="n">SELENIUM</div><div class="n">78.96</div>
+                        </td>
+                        <td class="h 35">
+                            <div class="n">35</div><div class="sym">Br</div>
+                            <div class="n">BROMINE</div><div class="n">79.90</div>
+                        </td>
+                        <td class="ng">
+                            <div class="n">36</div><div class="sym">Kr</div>
+                            <div class="n">KRYPTON</div><div class="n">83.80</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 5-->
+                    <tr>
+                        <td><center>5</center></td>
+                        <td class="am">
+                            <div class="n">37</div><div class="sym">Rb</div>
+                            <div class="n">RUBIDUM</div><div class="n">85.47</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">38</div><div class="sym">Sr</div>
+                            <div class="n">STRONTIUM</div><div class="n">87.62</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">39</div><div class="sym">Y</div>
+                            <div class="n">YTTRIUM</div><div class="n">88.91</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">40</div><div class="sym">Zr</div>
+                            <div class="n">ZICRONIUM</div><div class="n">91.22</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">41</div><div class="sym">Nb</div>
+                            <div class="n">NIOBIUM</div><div class="n">92.91</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">42</div><div class="sym">Mo</div>
+                            <div class="n">MOLEBDENUM</div><div class="n">95.96</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">43</div><div class="sym">Tc</div>
+                            <div class="n">TECHNETIUM</div><div class="n">98</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">44</div><div class="sym">Ru</div>
+                            <div class="n">RUTHENIUM</div><div class="n">101.1</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">45</div><div class="sym">Rh</div>
+                            <div class="n">RHODIUM</div><div class="n">102.9</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">46</div><div class="sym">Pd</div>
+                            <div class="n">PALLADIUM</div><div class="n">106.4</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">47</div><div class="sym">Ag</div>
+                            <div class="n">SILVER</div><div class="n">107.9</div>
+                        </td>
+                        <td class="ltm">
+                            <div class="n">48</div><div class="sym">Cd</div>
+                            <div class="n">CADMIUM</div><div class="n">112.4</div>
+                        </td>
+                        <td class="bm">
+                            <div class="n">49</div><div class="sym">In</div>
+                            <div class="n">INDIUM</div><div class="n">114.8</div>
+                        </td>
+                        <td class="bm">
+                            <div class="n">50</div><div class="sym">Sn</div>
+                            <div class="n">TIN</div><div class="n">118.7</div>
+                        </td>
+                        <td class="m">
+                            <div class="n">51</div><div class="sym">Sb</div>
+                            <div class="n">ANTIMONY</div><div class="n">121.8</div>
+                        </td>
+                        <td class="m">
+                            <div class="n">52</div><div class="sym">Te</div>
+                            <div class="n">TELLERIUM</div><div class="n">127.6</div>
+                        </td>
+                        <td class="h">
+                            <div class="n">53</div><div class="sym">I</div>
+                            <div class="n">IODINE</div><div class="n">126.9</div>
+                        </td>
+                        <td class="ng">
+                            <div class="n">54</div><div class="sym">Xe</div>
+                            <div class="n">XENON</div><div class="n">131.3</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 6-->
+                    <tr>
+                        <td><center>6</center></td>
+                        <td class="am">
+                            <div class="n">55</div><div class="sym">Cs</div>
+                            <div class="n">CESIUM</div><div class="n">132.9</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">56</div><div class="sym">Ba</div>
+                            <div class="n">BARIUM</div><div class="n">137.3</div>
+                        </td>
+                        <td>
+                            <div class="n">57-71</div>
+                        </td>
+                        <td class="etm">
+                            <div class="n">72</div><div class="sym">Hf</div>
+                            <div class="n">HAFNIUM</div><div class="n">178.5</div>
+                        </td>
+                        <td class="etm">
+                            <div  class="n">73</div><div class="sym">Ta</div>
+                            <div  class="n">TANTALUM</div><div class="n">180.9</div>
+                        </td>
+                        <td class="etm">
+                            <div  class="n">74</div><div class="sym">W</div>
+                            <div  class="n">TUNGSTEN</div><div class="n">183.8</div>
+                        </td>
+                        <td class="etm">
+                            <div  class="n">75</div><div class="sym">Re</div>
+                            <div  class="n">RHENIUM</div><div class="n">186.2</div>
+                        </td>
+                        <td class="ltm">
+                            <div  class="n">76</div><div class="sym">Os</div>
+                            <div  class="n">OSMIUM</div><div class="n">190.2</div>
+                        </td>
+                        <td class="ltm">
+                            <div  class="n">77</div><div class="sym">Ir</div>
+                            <div  class="n">IRIDIUM</div><div class="n">192.2</div>
+                        </td>
+                        <td class="ltm">
+                            <div  class="n">78</div><div class="sym">Pt</div>
+                            <div  class="n">PLATINUM</div><div class="n">195.1</div>
+                        </td>
+                        <td class="ltm">
+                            <div  class="n">79</div><div class="sym">Au</div>
+                            <div  class="n">GOLD</div><div class="n">197.0</div>
+                        </td>
+                        <td class="ltm 80">
+                            <div  class="n">80</div><div class="sym">Hg</div>
+                            <div  class="n">MERCURY</div><div class="n">200.6</div>
+                        </td>
+                        <td class="bm">
+                            <div  class="n">81</div><div class="sym">Tl</div>
+                            <div  class="n">THALLIUM</div><div class="n">203.3</div>
+                        </td>
+                        <td class="bm">
+                            <div  class="n">82</div><div class="sym">Pb</div>
+                            <div  class="n">LEAD</div><div class="n">207.2</div>
+                        </td>
+                        <td class="bm">
+                            <div  class="n">83</div><div class="sym">Bi</div>
+                            <div  class="n">BISMUTH</div><div class="n">209.0</div>
+                        </td>
+                        <td class="m">
+                            <div  class="n">84</div><div class="sym">Po</div>
+                            <div  class="n">POLONIUM</div><div class="n">209</div>
+                        </td>
+                        <td class="h">
+                            <div  class="n">85</div><div class="sym">At</div>
+                            <div  class="n">ASTATINE</div><div class="n">210</div>
+                        </td>
+                        <td class="ng">
+                            <div  class="n">86</div><div class="sym">Rn</div>
+                            <div  class="n">RADON</div><div class="n">222</div>
+                        </td>
+                    </tr>
+            
+                    <!--Row 7-->
+                    <tr>
+                        <td><center>7</center></td>
+                        <td class="am 87">
+                            <div class="n">87</div><div class="sym">Fr</div>
+                            <div class="n">FRACNIUM</div><div class="n">132.9</div>
+                        </td>
+                        <td class="aem">
+                            <div class="n">88</div><div class="sym">Ra</div>
+                            <div class="n">RADIUM</div><div class="n">137.3</div>
+                        </td>
+                        <td>
+                            <div  class="n">89-102</div>
+                        </td>
+                        <td class="etm 104">
+                            <div class="n">104</div><div class="sym">Rf</div>
+                            <div class="n">RUTHERFORDIUM</div><div class="n">178.5</div>
+                        </td>
+                        <td class="etm 105">
+                            <div class="n">105</div><div class="sym">Db</div>
+                            <div class="n">DUBNIUM</div><div class="n">180.9</div>
+                        </td>
+                        <td class="etm 106">
+                            <div class="n">106</div><div class="sym">Sg</div>
+                            <div class="n">SEABORGIUM</div><div class="n">183.8</div>
+                        </td>
+                        <td class="etm 107">
+                            <div class="n">107</div><div class="sym">Bh</div>
+                            <div class="n">BOHRIUM</div><div class="n">186.2</div>
+                        </td>
+                        <td class="ltm 108">
+                            <div class="n">108</div><div class="sym">Hs</div>
+                            <div class="n">HASSMIUM</div><div class="n">190.2</div>
+                        </td>
+                        <td class="ltm 109">
+                            <div class="n">109</div><div class="sym">Mt</div>
+                            <div class="n">MEITNERIUM</div><div class="n">192.2</div>
+                        </td>
+                        <td class="ltm 110">
+                            <div class="n">110</div><div class="sym">Ds</div>
+                            <div class="n">DARMSTATIUM</div><div class="n">195.1</div>
+                        </td>
+                        <td class="ltm 111">
+                            <div class="n">111</div><div class="sym">Rg</div>
+                            <div class="n">ROENTGENIUM</div><div class="n">197.0</div>
+                        </td>
+                        <td class="ltm 112">
+                            <div class="n">112</div><div class="sym">Cn</div>
+                            <div class="n">COPENICIUM</div><div class="n">200.6</div>
+                        </td>
+                        <td class="bm 113">
+                            <div class="n">113</div><div class="sym">Nh</div>
+                            <div class="n">NIHONIUM</div><div class="n">203.3</div>
+                        </td>
+                        <td class="bm 114">
+                            <div class="n">114</div><div class="sym">Fl</div>
+                            <div class="n">FLEROVIUM</div><div class="n">207.2</div>
+                        </td>
+                        <td class="bm 115">
+                            <div class="n">115</div><div class="sym">Mc</div>
+                            <div class="n">MOSCOVIUM</div><div class="n">209.0</div>
+                        </td>
+                        <td class="bm 116">
+                            <div class="n">116</div><div class="sym">Lv</div>
+                            <div class="n">LIVERMORIUM</div><div class="n">209</div>
+                        </td>
+                        <td class="h 117">
+                            <div class="n">117</div><div class="sym">Ts</div>
+                            <div class="n">TENNESSINE</div><div class="n">210</div>
+                        </td>
+                        <td class="ng 118">
+                            <div class="n">118</div><div class="sym">Og</div>
+                            <div class="n">OGANESSON</div><div class="n">222</div>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <table class="element">
+                    <tr>
+                        <td colspan="4" class="sub">6</td>
+                        <td class="la">
+                            <div  class="n">57</div><div class="sym">La</div>
+                            <div  class="n">LANTHANUM</div><div  class="n">138.9</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">58</div><div class="sym">Ce</div>
+                            <div  class="n">CERIUM</div><div  class="n">140.1</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">59</div><div class="sym">Pr</div>
+                            <div  class="n">PRASAEODYMIUM</div><div  class="n">144.2</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">60</div><div class="sym">Nd</div>
+                            <div  class="n">NEODYMIUM</div><div  class="n">144.2</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">61</div><div class="sym">Pm</div>
+                            <div  class="n">PROMETHIUM</div><div  class="n">145</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">62</div><div class="sym">Sm</div>
+                            <div  class="n">SAMARIUM</div><div  class="n">150.4</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">63</div><div class="sym">Eu</div>
+                            <div  class="n">EURONIUM</div><div  class="n">152.0</div>
+                        </td>
+                        <td class="la">
+                            <div class="n">64</div><div class="sym">Gd</div>
+                            <div class="n">GADOLINIUM</div><div class="n">157.3</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">65</div><div class="sym">Tb</div>
+                            <div  class="n">TERBIUM</div><div  class="n">158.9</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">66</div><div class="sym">Dy</div>
+                            <div  class="n">DYRSPORSIUM</div><div  class="n">162.5</div>
+                        </td>
+                        <td class="la">
+                            <div  class="n">67</div><div class="sym">Ho</div>
+                            <div  class="n">HOLOMIUM</div><div  class="n">164.9</div>
+                        </td>
+                        <td class="la">
+                            <div class="n">68</div><div class="sym">Er</div>
+                            <div class="n">ERBIUM</div><div class="n">167.3</div>
+                        </td>
+                        <td class="la">
+                            <div class="n">69</div><div class="sym">Tm</div>
+                            <div class="n">THULIUM</div><div class="n">168.9</div>
+                        </td>
+                        <td class="la">
+                            <div class="n">70</div><div class="sym">Yb</div>
+                            <div class="n">YTTERBIUM</div><div class="n">173.1</div>
+                        </td>
+                        <td class="la">
+                            <div class="n">71</div><div class="sym">Lu</div>
+                            <div class="n">LUTETIUM</div><div class="n">175.0</div>
+                        </td>
+                    </tr>
+            
+                    <!--ACTINIDES-->
+                    <tr>
+                        <td colspan="4" class="sub">7</td>
+                        <td class="ac">
+                            <div class="n">89</div><div class="sym">Ac</div>
+                            <div class="n">ACTINIUM</div><div class="n">227</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">90</div><div class="sym">Th</div>
+                            <div class="n">THORIUM</div><div class="n">232.0</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">91</div><div class="sym">Pa</div>
+                            <div class="n">PROTACTINIUM</div><div class="n">231.0</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">60</div><div class="sym">U</div>
+                            <div class="n">URANIUM</div><div class="n">238.0</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">92</div><div class="sym">Np</div>
+                            <div class="n">NEPTUNIUM</div><div class="n">237</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">93</div><div class="sym">Pu</div>
+                            <div class="n">PLUTONIUM</div><div class="n">244</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">94</div><div class="sym">Am</div>
+                            <div class="n">AMERICIUM</div><div class="n">243</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">95</div><div class="sym">Cm</div>
+                            <div class="n">CURIUM</div><div class="n">247</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">96</div><div class="sym">Bk</div>
+                            <div class="n">BERKELIUM</div><div  class="n">247</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">97</div><div class="sym">Cf</div>
+                            <div class="n">CALIFORNIUM</div><div class="n">251</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">98</div><div class="sym">Es</div>
+                            <div class="n">EISTEINIUM</div><div class="n">252</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">99</div><div class="sym">Fm</div>
+                            <div class="n">FERMIUM</div><div class="n">257</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">100</div><div class="sym">Md</div>
+                            <div class="n">MENDELEVIUM</div><div class="n">258</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">101</div><div class="sym">No</div>
+                            <div class="n">NOBELIUM</div><div class="n">259</div>
+                        </td>
+                        <td class="ac">
+                            <div class="n">102</div><div class="sym">Lr</div>
+                            <div class="n">LAWRENCIUM</div><div class="n">262</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    Series of 2021
+                    <br>
+                    Disclaimer For educational purposes only.
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
